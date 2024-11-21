@@ -48,7 +48,7 @@ def main():
             
             for j in shots:
                 if j.collision(i):
-                    i.kill()
+                    i.split()
                     j.kill()
 
         
